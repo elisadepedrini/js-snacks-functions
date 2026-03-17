@@ -15,6 +15,20 @@ function initialLetter (arr) {
     return initials
 }
 
+// Arrow function
+
+const initialLetter = (arr) => {
+    const initials = []
+
+    for (let i = 0; i < arr.length; i++) {
+        initials.push(arr[i][0])
+    }
+
+    return initials
+}
+
+
+
 // Invoca la funzione qui e stampa il risultato in console
 
 console.log(initialLetter(names))
